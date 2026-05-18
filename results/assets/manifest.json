@@ -1,0 +1,58 @@
+{
+  "assets": [
+    {
+      "filename": "service_hero.png",
+      "alt_text": "A sleek SUV driving on a beautiful coastal highway during summer",
+      "purpose": "Primary key visual for all channels",
+      "format": "PNG",
+      "dimensions": "1024×1024",
+      "palette": ["#4CA5FF", "#FFD100"],
+      "moodboard_theme": "Primary (Summer Road Trip)"
+    },
+    {
+      "filename": "ac_promo_mockup.png",
+      "alt_text": "Car air conditioning vent with cool frosty blue air blowing out",
+      "purpose": "OOH billboard visualization / Promo",
+      "format": "PNG",
+      "dimensions": "1024×1024",
+      "palette": ["#4CA5FF", "#FFD100", "#E3000F"],
+      "moodboard_theme": "Secondary (Beat the Heat)"
+    },
+    {
+      "filename": "family_lifestyle.png",
+      "alt_text": "Smiling auto mechanic handing keys to a happy family",
+      "purpose": "Slice-of-life authentic imagery",
+      "format": "PNG",
+      "dimensions": "1024×1024",
+      "palette": ["#E3000F", "#FFD100", "#4CA5FF"],
+      "moodboard_theme": "Primary (Summer Road Trip)"
+    },
+    {
+      "filename": "mechanic_lifestyle.png",
+      "alt_text": "Friendly professional mechanic inspecting a car engine bay",
+      "purpose": "Trust and expertise imagery",
+      "format": "PNG",
+      "dimensions": "1024×1024",
+      "palette": ["#E3000F", "#FFD100"],
+      "moodboard_theme": "Primary (Summer Road Trip)"
+    },
+    {
+      "filename": "summer_wheels.png",
+      "alt_text": "Close up macro shot of a car tire gripping hot summer asphalt",
+      "purpose": "Texture/sensory brand asset",
+      "format": "PNG",
+      "dimensions": "1024×1024",
+      "palette": ["#2B2B2B", "#FFD100"],
+      "moodboard_theme": "Secondary (Beat the Heat)"
+    },
+    {
+      "filename": "roadtrip_urban.png",
+      "alt_text": "Modern car parked at a sunny urban beachside cafe",
+      "purpose": "Urban/youth brand asset",
+      "format": "PNG",
+      "dimensions": "1024×1024",
+      "palette": ["#4CA5FF", "#FFD100", "#E3000F"],
+      "moodboard_theme": "Primary (Summer Road Trip)"
+    }
+  ]
+}

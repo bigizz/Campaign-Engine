@@ -189,19 +189,19 @@ The Designer MUST follow the 3-step image generation pipeline:
 #### Color Palette (Visual Identity)
 | Swatch | Hex | Role |
 |--------|-----|------|
-| Cocoa Brown | `#3D2314` | Deep foundation — grounds the identity |
-| Caramel Gold | `#D49A36` | Warm accent — appetizing, premium feel |
-| Creamy Off-White | `#F9F6F0` | Background — clean, airy, lets products breathe |
-| Banana Yellow | `#F4D03F` | Energetic highlight — playful, youthful |
-| Fresh Mint | `#A3D9A5` | Secondary accent — freshness, natural ingredients |
+| {COLOR_1_NAME} | `{COLOR_1_HEX}` | {COLOR_1_ROLE} |
+| {COLOR_2_NAME} | `{COLOR_2_HEX}` | {COLOR_2_ROLE} |
+| {COLOR_3_NAME} | `{COLOR_3_HEX}` | {COLOR_3_ROLE} |
+| {COLOR_4_NAME} | `{COLOR_4_HEX}` | {COLOR_4_ROLE} |
+| {COLOR_5_NAME} | `{COLOR_5_HEX}` | {COLOR_5_ROLE} |
 
 #### Typography (Visual Identity)
 | Usage | Font | Weight |
 |-------|------|--------|
-| Headlines / Billboard Copy | **Outfit** | Bold (700) |
-| Subheadings | **Outfit** | SemiBold (600) |
-| Body Copy | **Inter** | Regular (400) |
-| Accent / Data | **Inter** | Medium (500) |
+| Headlines / Billboard Copy | **{HEADLINE_FONT}** | {HEADLINE_WEIGHT} |
+| Subheadings | **{SUBHEAD_FONT}** | {SUBHEAD_WEIGHT} |
+| Body Copy | **{BODY_FONT}** | {BODY_WEIGHT} |
+| Accent / Data | **{ACCENT_FONT}** | {ACCENT_WEIGHT} |
 
 ---
 

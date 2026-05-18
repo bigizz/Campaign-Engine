@@ -150,19 +150,19 @@ npx --yes md-to-pdf results/final_strategy.md
 ```html
 <div style="border: 2px solid #D49A36; border-radius: 16px; padding: 24px; margin: 24px 0; background: linear-gradient(135deg, #F9F6F0 0%, #F5E6D3 100%); box-shadow: 0 4px 16px rgba(0,0,0,0.08);">
   <div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
-    <div style="width: 80px; height: 80px; border-radius: 50%; background: linear-gradient(135deg, #D49A36, #F4D03F); display: flex; align-items: center; justify-content: center; font-size: 36px; color: #FFF; font-weight: bold; flex-shrink: 0;">A/Y</div>
+    <div style="width: 80px; height: 80px; border-radius: 50%; background: linear-gradient(135deg, #D49A36, #F4D03F); display: flex; align-items: center; justify-content: center; font-size: 36px; color: #FFF; font-weight: bold; flex-shrink: 0;">{INITIALS}</div>
     <div>
-      <h3 style="margin: 0; color: #3D2314;">The Everyday Indulger</h3>
-      <p style="margin: 4px 0; color: #D49A36; font-weight: 600;">Amina / Youssef · 18–45</p>
-      <p style="margin: 4px 0; color: #666; font-size: 14px;">Student · Professional · Parent</p>
+      <h3 style="margin: 0; color: #3D2314;">{PERSONA_TITLE}</h3>
+      <p style="margin: 4px 0; color: #D49A36; font-weight: 600;">{PERSONA_NAME} · {PERSONA_AGE}</p>
+      <p style="margin: 4px 0; color: #666; font-size: 14px;">{PERSONA_ROLES}</p>
     </div>
   </div>
   <table style="margin-top: 16px;">
-    <tr><th style="width: 140px;">Psychographics</th><td>Values quality and taste but needs convenience. Seeks small moments of joy during busy days.</td></tr>
-    <tr><th>Media Habits</th><td>Instagram, YouTube, OOH billboards during commute</td></tr>
-    <tr><th>Needs</th><td>Authentic visual cues that promise delicious taste. Relatable scenarios, not sterile ads.</td></tr>
-    <tr><th>Pain Points</th><td>Generic, artificial-looking advertising; lack of brand authenticity</td></tr>
-    <tr><th>Decision Drivers</th><td>Visual appeal, trusted brand name, flavor innovation, accessible price</td></tr>
+    <tr><th style="width: 140px;">Psychographics</th><td>{PSYCHOGRAPHICS}</td></tr>
+    <tr><th>Media Habits</th><td>{MEDIA_HABITS}</td></tr>
+    <tr><th>Needs</th><td>{NEEDS}</td></tr>
+    <tr><th>Pain Points</th><td>{PAIN_POINTS}</td></tr>
+    <tr><th>Decision Drivers</th><td>{DECISION_DRIVERS}</td></tr>
   </table>
 </div>
 ```
@@ -305,13 +305,13 @@ npx --yes md-to-pdf results/final_strategy.md
 - [ ] `results/final_strategy.md` — Phase 4: Consolidated PDF-ready document
 
 ### Visual Assets
-- [ ] `results/assets/cookie_product_hero.svg` — Primary hero visual
+- [ ] `results/assets/{product}_product_hero.svg` — Primary hero visual
 - [ ] `results/assets/billboard_mockup.svg` — OOH billboard mockup
 - [ ] `results/assets/lifestyle_tableau.svg` — Lifestyle still life
-- [ ] `results/assets/cookie_lifestyle.png` — Lifestyle PNG
-- [ ] `results/assets/golden_nostalgia.svg` — Heritage-themed visual
-- [ ] `results/assets/merendina_urban.svg` — Urban-themed visual
-- [ ] `results/assets/tonik_crunch.svg` — Texture-focused visual
+- [ ] `results/assets/lifestyle_tableau.png` — Lifestyle PNG
+- [ ] `results/assets/brand_heritage.svg` — Heritage-themed visual
+- [ ] `results/assets/brand_urban.svg` — Urban-themed visual
+- [ ] `results/assets/brand_texture.svg` — Texture-focused visual
 - [ ] `results/assets/manifest.json` — Asset metadata catalog
 
 ### Final Deliverable

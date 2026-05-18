@@ -1,239 +1,138 @@
-<div style="page-break-after: always;">
+# Phase 3: Media Kit — {BRAND_NAME}
 
-# Phase 3: Media Kit — Groupe Bimo
+## 1. Overview
 
-<div style="font-size: 14px; color: #D49A36; letter-spacing: 2px; margin-top: -10px;">Visual Asset Delivery · Design Render Showcase · Usage Guidelines</div>
+**Campaign Scope:** {CAMPAIGN_SCOPE}
+**Total Assets Delivered:** {ASSET_COUNT} {ASSET_TYPE}
 
+| Filename | Format | Dimensions | Category | Purpose |
+|:---------|:-------|:-----------|:---------|:--------|
+| `{ASSET_1_FILENAME}` | {ASSET_1_FORMAT} | {ASSET_1_DIMS} | {ASSET_1_CATEGORY} | {ASSET_1_PURPOSE} |
+| `{ASSET_2_FILENAME}` | {ASSET_2_FORMAT} | {ASSET_2_DIMS} | {ASSET_2_CATEGORY} | {ASSET_2_PURPOSE} |
+| `{ASSET_3_FILENAME}` | {ASSET_3_FORMAT} | {ASSET_3_DIMS} | {ASSET_3_CATEGORY} | {ASSET_3_PURPOSE} |
+| `{ASSET_4_FILENAME}` | {ASSET_4_FORMAT} | {ASSET_4_DIMS} | {ASSET_4_CATEGORY} | {ASSET_4_PURPOSE} |
+| `{ASSET_5_FILENAME}` | {ASSET_5_FORMAT} | {ASSET_5_DIMS} | {ASSET_5_CATEGORY} | {ASSET_5_PURPOSE} |
+| `{ASSET_6_FILENAME}` | {ASSET_6_FORMAT} | {ASSET_6_DIMS} | {ASSET_6_CATEGORY} | {ASSET_6_PURPOSE} |
+
+## 2. Design Render Showcase
+
+<div style="border: 1px solid {CARD_1_BORDER}; border-radius: 16px; padding: 24px; margin: 24px 0; background: #FFFFFF; box-shadow: 0 4px 16px rgba(0,0,0,0.08); page-break-inside: avoid;">
+  <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+    <h3 style="margin: 0; color: {CARD_1_HEADING_COLOR;};">{CARD_1_TITLE}</h3>
+    <span style="background: {CARD_1_TAG_BG}; color: {CARD_1_TAG_TEXT}; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600;">{CARD_1_TAG}</span>
+  </div>
+  <img src="./assets/{ASSET_1_FILENAME}" alt="{CARD_1_ALT}" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); display: block; margin: 16px auto;" />
+  <table>
+    <tr><th style="width: 140px;">Specification</th><th>Detail</th></tr>
+    <tr><td>Format</td><td>{ASSET_1_FORMAT}</td></tr>
+    <tr><td>Dimensions</td><td>{ASSET_1_DIMS}</td></tr>
+    <tr><td>File</td><td>results/assets/{ASSET_1_FILENAME}</td></tr>
+    <tr><td>Palette</td><td>{CARD_1_PALETTE}</td></tr>
+    <tr><td>Purpose</td><td>{ASSET_1_PURPOSE}</td></tr>
+    <tr><td>Usage</td><td>{CARD_1_USAGE}</td></tr>
+  </table>
+  <p style="color: #555; line-height: 1.6; margin-top: 12px;"><strong>Visual Narrative:</strong> {CARD_1_NARRATIVE}</p>
 </div>
 
----
-
-## Overview
-
-This media kit contains all generated visual assets for the **Groupe Bimo Cookie Campaign**, aligned with the **"Authentic Indulgence"** and **"Urban Snack Moment"** creative directions. The assets span product hero shots, billboard mockups, lifestyle photography, and brand identity visuals — all designed to establish a cohesive, visually compelling brand presence for the new **Cookies Banane-Coco-Caramel** line.
-
-### Asset Summary
-
-| Asset Type | Quantity | Formats | Primary Use |
-|:-----------|:--------:|:--------|:------------|
-| Product Hero | 1 | SVG | Digital, print, billboard base |
-| Billboard Mockup | 1 | SVG | OOH presentation, client pitches |
-| Lifestyle Photography | 1 | SVG, PNG | Social media, web, print |
-| Brand Identity | 3 | SVG | Heritage, urban, texture campaigns |
-
----
-
-## Design Render Showcase
-
-### 1. Cookie Product Hero
-
-<div style="border: 1px solid #D49A36; border-radius: 16px; padding: 24px; margin: 24px 0; background: #FFFFFF; box-shadow: 0 4px 16px rgba(0,0,0,0.08); page-break-inside: avoid;">
-
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
-  <h3 style="margin: 0; color: #3D2314;">Cookie Product Hero</h3>
-  <span style="background: #D49A36; color: #F9F6F0; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600;">Hero Visual</span>
+<div style="border: 1px solid {CARD_2_BORDER}; border-radius: 16px; padding: 24px; margin: 24px 0; background: #FFFFFF; box-shadow: 0 4px 16px rgba(0,0,0,0.08); page-break-inside: avoid;">
+  <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+    <h3 style="margin: 0; color: {CARD_2_HEADING_COLOR;};">{CARD_2_TITLE}</h3>
+    <span style="background: {CARD_2_TAG_BG}; color: {CARD_2_TAG_TEXT}; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600;">{CARD_2_TAG}</span>
+  </div>
+  <img src="./assets/{ASSET_2_FILENAME}" alt="{CARD_2_ALT}" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); display: block; margin: 16px auto;" />
+  <table>
+    <tr><th style="width: 140px;">Specification</th><th>Detail</th></tr>
+    <tr><td>Format</td><td>{ASSET_2_FORMAT}</td></tr>
+    <tr><td>Dimensions</td><td>{ASSET_2_DIMS}</td></tr>
+    <tr><td>File</td><td>results/assets/{ASSET_2_FILENAME}</td></tr>
+    <tr><td>Palette</td><td>{CARD_2_PALETTE}</td></tr>
+    <tr><td>Purpose</td><td>{ASSET_2_PURPOSE}</td></tr>
+    <tr><td>Usage</td><td>{CARD_2_USAGE}</td></tr>
+  </table>
+  <p style="color: #555; line-height: 1.6; margin-top: 12px;"><strong>Visual Narrative:</strong> {CARD_2_NARRATIVE}</p>
 </div>
 
-![Cookie Product Hero](./assets/cookie_product_hero.svg)
-
-| Specification | Detail |
-|:--------------|:-------|
-| **Format** | SVG |
-| **Dimensions** | 400 × 400 px (scalable) |
-| **Color Palette** | Cocoa Brown (#3D2314), Caramel Gold (#D49A36), Banana Yellow (#F4D03F), Creamy Off-White (#F9F6F0) |
-| **Purpose** | Primary key visual for digital and print use |
-| **Usage** | Website hero, social media posts, print collateral, billboard base |
-
-**Visual Description:** A photorealistic banana-coco-caramel cookie rendered on a warm radial gradient background transitioning from Caramel Gold to Cocoa Brown. The cookie surface features golden-brown tones with visible chocolate chips (Cocoa Brown), coconut flakes (Creamy Off-White), and caramel drizzle (Banana Yellow). The composition centers the cookie with text labeling "BANANE · COCO · CARAMEL" at the bottom, creating a clean, appetizing hero visual.
-
+<div style="border: 1px solid {CARD_3_BORDER}; border-radius: 16px; padding: 24px; margin: 24px 0; background: #FFFFFF; box-shadow: 0 4px 16px rgba(0,0,0,0.08); page-break-inside: avoid;">
+  <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+    <h3 style="margin: 0; color: {CARD_3_HEADING_COLOR;};">{CARD_3_TITLE}</h3>
+    <span style="background: {CARD_3_TAG_BG}; color: {CARD_3_TAG_TEXT}; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600;">{CARD_3_TAG}</span>
+  </div>
+  <img src="./assets/{ASSET_3_FILENAME}" alt="{CARD_3_ALT}" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); display: block; margin: 16px auto;" />
+  <table>
+    <tr><th style="width: 140px;">Specification</th><th>Detail</th></tr>
+    <tr><td>Format</td><td>{ASSET_3_FORMAT}</td></tr>
+    <tr><td>Dimensions</td><td>{ASSET_3_DIMS}</td></tr>
+    <tr><td>File</td><td>results/assets/{ASSET_3_FILENAME}</td></tr>
+    <tr><td>Palette</td><td>{CARD_3_PALETTE}</td></tr>
+    <tr><td>Purpose</td><td>{ASSET_3_PURPOSE}</td></tr>
+    <tr><td>Usage</td><td>{CARD_3_USAGE}</td></tr>
+  </table>
+  <p style="color: #555; line-height: 1.6; margin-top: 12px;"><strong>Visual Narrative:</strong> {CARD_3_NARRATIVE}</p>
 </div>
 
----
-
-### 2. Billboard Mockup
-
-<div style="border: 1px solid #D49A36; border-radius: 16px; padding: 24px; margin: 24px 0; background: #FFFFFF; box-shadow: 0 4px 16px rgba(0,0,0,0.08); page-break-inside: avoid;">
-
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
-  <h3 style="margin: 0; color: #3D2314;">Billboard Mockup</h3>
-  <span style="background: #3D2314; color: #F9F6F0; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600;">OOH Campaign</span>
+<div style="border: 1px solid {CARD_4_BORDER}; border-radius: 16px; padding: 24px; margin: 24px 0; background: #FFFFFF; box-shadow: 0 4px 16px rgba(0,0,0,0.08); page-break-inside: avoid;">
+  <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+    <h3 style="margin: 0; color: {CARD_4_HEADING_COLOR;};">{CARD_4_TITLE}</h3>
+    <span style="background: {CARD_4_TAG_BG}; color: {CARD_4_TAG_TEXT}; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600;">{CARD_4_TAG}</span>
+  </div>
+  <img src="./assets/{ASSET_4_FILENAME}" alt="{CARD_4_ALT}" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); display: block; margin: 16px auto;" />
+  <table>
+    <tr><th style="width: 140px;">Specification</th><th>Detail</th></tr>
+    <tr><td>Format</td><td>{ASSET_4_FORMAT}</td></tr>
+    <tr><td>Dimensions</td><td>{ASSET_4_DIMS}</td></tr>
+    <tr><td>File</td><td>results/assets/{ASSET_4_FILENAME}</td></tr>
+    <tr><td>Palette</td><td>{CARD_4_PALETTE}</td></tr>
+    <tr><td>Purpose</td><td>{ASSET_4_PURPOSE}</td></tr>
+    <tr><td>Usage</td><td>{CARD_4_USAGE}</td></tr>
+  </table>
+  <p style="color: #555; line-height: 1.6; margin-top: 12px;"><strong>Visual Narrative:</strong> {CARD_4_NARRATIVE}</p>
 </div>
 
-![Billboard Mockup](./assets/billboard_mockup.svg)
-
-| Specification | Detail |
-|:--------------|:-------|
-| **Format** | SVG |
-| **Dimensions** | 800 × 500 px (scalable) |
-| **Color Palette** | Cocoa Brown (#3D2314), Caramel Gold (#D49A36), Creamy Off-White (#F9F6F0), Sky Blue (#87CEEB), City Silhouette (#2C3E50) |
-| **Purpose** | Out-of-home billboard visualization |
-| **Usage** | Client pitch decks, OOH media planning, social media teasers |
-
-**Visual Description:** A complete billboard mockup set against a city skyline at golden hour. The billboard frame contains the cookie product shot with the headline "NOUVEAU" in bold Outfit typography, "COOKIES" in Caramel Gold, and "Banane · Coco · Caramel" in body text — all on a Creamy Off-White background. The billboard structure is mounted on visible legs with the Groupe Bimo brand tagline displayed below. The city skyline creates an urban context that reinforces the "Urban Snack Moment" theme.
-
+<div style="border: 1px solid {CARD_5_BORDER}; border-radius: 16px; padding: 24px; margin: 24px 0; background: #FFFFFF; box-shadow: 0 4px 16px rgba(0,0,0,0.08); page-break-inside: avoid;">
+  <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+    <h3 style="margin: 0; color: {CARD_5_HEADING_COLOR;};">{CARD_5_TITLE}</h3>
+    <span style="background: {CARD_5_TAG_BG}; color: {CARD_5_TAG_TEXT}; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600;">{CARD_5_TAG}</span>
+  </div>
+  <img src="./assets/{ASSET_5_FILENAME}" alt="{CARD_5_ALT}" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); display: block; margin: 16px auto;" />
+  <table>
+    <tr><th style="width: 140px;">Specification</th><th>Detail</th></tr>
+    <tr><td>Format</td><td>{ASSET_5_FORMAT}</td></tr>
+    <tr><td>Dimensions</td><td>{ASSET_5_DIMS}</td></tr>
+    <tr><td>File</td><td>results/assets/{ASSET_5_FILENAME}</td></tr>
+    <tr><td>Palette</td><td>{CARD_5_PALETTE}</td></tr>
+    <tr><td>Purpose</td><td>{ASSET_5_PURPOSE}</td></tr>
+    <tr><td>Usage</td><td>{CARD_5_USAGE}</td></tr>
+  </table>
+  <p style="color: #555; line-height: 1.6; margin-top: 12px;"><strong>Visual Narrative:</strong> {CARD_5_NARRATIVE}</p>
 </div>
 
----
-
-### 3. Lifestyle Tableau
-
-<div style="border: 1px solid #D49A36; border-radius: 16px; padding: 24px; margin: 24px 0; background: #FFFFFF; box-shadow: 0 4px 16px rgba(0,0,0,0.08); page-break-inside: avoid;">
-
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
-  <h3 style="margin: 0; color: #3D2314;">Lifestyle Tableau</h3>
-  <span style="background: #A3D9A5; color: #3D2314; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600;">Lifestyle</span>
+<div style="border: 1px solid {CARD_6_BORDER}; border-radius: 16px; padding: 24px; margin: 24px 0; background: #FFFFFF; box-shadow: 0 4px 16px rgba(0,0,0,0.08); page-break-inside: avoid;">
+  <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+    <h3 style="margin: 0; color: {CARD_6_HEADING_COLOR;};">{CARD_6_TITLE}</h3>
+    <span style="background: {CARD_6_TAG_BG}; color: {CARD_6_TAG_TEXT}; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600;">{CARD_6_TAG}</span>
+  </div>
+  <img src="./assets/{ASSET_6_FILENAME}" alt="{CARD_6_ALT}" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); display: block; margin: 16px auto;" />
+  <table>
+    <tr><th style="width: 140px;">Specification</th><th>Detail</th></tr>
+    <tr><td>Format</td><td>{ASSET_6_FORMAT}</td></tr>
+    <tr><td>Dimensions</td><td>{ASSET_6_DIMS}</td></tr>
+    <tr><td>File</td><td>results/assets/{ASSET_6_FILENAME}</td></tr>
+    <tr><td>Palette</td><td>{CARD_6_PALETTE}</td></tr>
+    <tr><td>Purpose</td><td>{ASSET_6_PURPOSE}</td></tr>
+    <tr><td>Usage</td><td>{CARD_6_USAGE}</td></tr>
+  </table>
+  <p style="color: #555; line-height: 1.6; margin-top: 12px;"><strong>Visual Narrative:</strong> {CARD_6_NARRATIVE}</p>
 </div>
 
-![Lifestyle Tableau](./assets/lifestyle_tableau.svg)
+## 3. Usage Guidelines
+- **Color Consistency:** Always use {BRAND_COLOR_1} (`{COLOR_1_HEX}`) for CTAs. {BRAND_COLOR_2} (`{COLOR_2_HEX}`) should be the primary background or highlight color for brand recognition.
+- **Typography:** Use {HEADLINE_FONT} Bold for impact statements and {BODY_FONT} for readable service details.
+- **Image Overlays:** Ensure sufficient contrast when placing text over lifestyle imagery. Use a subtle gradient or dark overlay behind white text if needed.
+- **Format Recommendations:**
+  - Social Media Posts: {SOCIAL_DIMS} PNG
+  - Stories/Reels: {STORY_DIMS} PNG
+  - Web Banners: SVG/PNG
+  - OOH/Print: High-resolution PDF/PNG
 
-| Specification | Detail |
-|:--------------|:-------|
-| **Format** | SVG |
-| **Dimensions** | 600 × 400 px (scalable) |
-| **Color Palette** | Warm wood tones (#D4A36A, #8B6914), Cocoa Brown (#3D2314), Banana Yellow (#F4D03F), Caramel Gold (#D49A36) |
-| **Purpose** | Authentic "slice-of-life" imagery |
-| **Usage** | Social media content, website lifestyle sections, print editorial |
-
-**Visual Description:** A warm, sunlit still-life composition on a wooden table surface. Elements include: a coffee cup with steam rising (left), the cookie resting on the table with visible texture and crumbs (center), and the BIMO cookie packaging alongside a fresh banana (right). Warm sunlight pours in from the upper left, creating natural highlights that enhance the food textures. The tagline "Le plaisir authentique au quotidien" (Authentic pleasure every day) grounds the scene in the brand's message. This composition embodies the "Authentic Indulgence" theme with its natural lighting, genuine food textures, and relatable eating scenario.
-
-</div>
-
----
-
-### 4. Brand Identity: Golden Nostalgia
-
-<div style="border: 1px solid #D49A36; border-radius: 16px; padding: 24px; margin: 24px 0; background: #FFFFFF; box-shadow: 0 4px 16px rgba(0,0,0,0.08); page-break-inside: avoid;">
-
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
-  <h3 style="margin: 0; color: #3D2314;">Golden Nostalgia</h3>
-  <span style="background: #DAA520; color: #FFF; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600;">Heritage</span>
-</div>
-
-![Golden Nostalgia](./assets/golden_nostalgia.svg)
-
-| Specification | Detail |
-|:--------------|:-------|
-| **Format** | SVG |
-| **Dimensions** | 1080 × 1080 px (1:1 square) |
-| **Color Palette** | Vintage gold (#FFD700, #DAA520), Earth brown (#8B4513), Mint green (#98FF98), Cream (#D7C4A3) |
-| **Purpose** | Heritage and nostalgia brand asset |
-| **Usage** | Social media squares, brand storytelling, anniversary campaigns |
-
-**Visual Description:** A 1080×1080 square format brand graphic with a vintage cream background and subtle texture overlay. A golden central medallion features concentric circles with the word "Golden" in serif typography. A stylized mint tea glass sits to the right, referencing Algerian hospitality traditions. Typographic overlays read "NOSTALGIA & HERITAGE" and "L'BENNA D'ZMAN — SINCE 1981", connecting the brand to its Algerian roots and longstanding heritage.
-
-</div>
-
----
-
-### 5. Brand Identity: Urban Pulse
-
-<div style="border: 1px solid #D49A36; border-radius: 16px; padding: 24px; margin: 24px 0; background: #FFFFFF; box-shadow: 0 4px 16px rgba(0,0,0,0.08); page-break-inside: avoid;">
-
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
-  <h3 style="margin: 0; color: #3D2314;">Merendina Urban Pulse</h3>
-  <span style="background: #E30613; color: #FFF; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600;">Urban</span>
-</div>
-
-![Merendina Urban Pulse](./assets/merendina_urban.svg)
-
-| Specification | Detail |
-|:--------------|:-------|
-| **Format** | SVG |
-| **Dimensions** | 1080 × 1080 px (1:1 square) |
-| **Color Palette** | Red (#E30613), Black (#1A1A1A), Dark Gray (#333333), White, Gold (#FFD700) |
-| **Purpose** | Urban energy brand asset for Merendina product line |
-| **Usage** | Social media, street-style campaigns, youth-oriented marketing |
-
-**Visual Description:** A bold, high-contrast square format graphic with a red background and abstract urban architecture in dark grays. A flash photography effect radiates from the center. The Merendina product mockup appears as a chocolate-brown rounded rectangle with white italic typography. The headline "URBAN PULSE" in heavy sans-serif and subtitle "THE TASTE OF THE STREETS" in gold reinforce the street-culture aesthetic. This asset targets younger, urban consumers with an edgy visual language.
-
-</div>
-
----
-
-### 6. Brand Identity: The Crunch
-
-<div style="border: 1px solid #D49A36; border-radius: 16px; padding: 24px; margin: 24px 0; background: #FFFFFF; box-shadow: 0 4px 16px rgba(0,0,0,0.08); page-break-inside: avoid;">
-
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
-  <h3 style="margin: 0; color: #3D2314;">Tonik Crunch</h3>
-  <span style="background: #0056A4; color: #FFF; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600;">Texture</span>
-</div>
-
-![Tonik Crunch](./assets/tonik_crunch.svg)
-
-| Specification | Detail |
-|:--------------|:-------|
-| **Format** | SVG |
-| **Dimensions** | 1080 × 1920 px (9:16 vertical) |
-| **Color Palette** | Blue (#0056A4), Gold (#FFD700), Brown (#8B4513), White |
-| **Purpose** | Texture-focused brand asset for Tonik wafer product |
-| **Usage** | Instagram Stories, vertical digital ads, mobile-first content |
-
-**Visual Description:** A vertical 9:16 format graphic on a deep blue background with dramatic diagonal lines creating a dynamic, energetic composition. The Tonik wafer is shown snapped in half across two positions — the upper half with bold "TONIK" branding and the lower half continuing the wafer texture. Gold crumb particles scatter between the broken pieces, emphasizing the "crunch" sensory experience. Typography reads "THE CRUNCH" and "SENSORY TEXTURE", positioning the product around its tactile eating experience.
-
-</div>
-
----
-
-## Full Asset Inventory
-
-<div style="border: 1px solid #D49A36; border-radius: 12px; padding: 20px; margin: 20px 0; background: #F9F6F0;">
-
-| # | Filename | Format | Dimensions | Category | Purpose |
-|:-:|:---------|:------:|:-----------|:---------|:--------|
-| 1 | `cookie_product_hero.svg` | SVG | 400×400 | Product | Primary key visual |
-| 2 | `billboard_mockup.svg` | SVG | 800×500 | OOH | Billboard visualization |
-| 3 | `lifestyle_tableau.svg` | SVG | 600×400 | Lifestyle | Slice-of-life imagery |
-| 4 | `cookie_lifestyle.png` | PNG | — | Lifestyle | Additional lifestyle render |
-| 5 | `golden_nostalgia.svg` | SVG | 1080×1080 | Brand | Heritage brand asset |
-| 6 | `merendina_urban.svg` | SVG | 1080×1080 | Brand | Urban brand asset |
-| 7 | `tonik_crunch.svg` | SVG | 1080×1920 | Brand | Texture brand asset |
-
-All assets are stored in `results/assets/` alongside `manifest.json` containing metadata.
-
-</div>
-
----
-
-## Usage Guidelines
-
-### Color Consistency
-Maintain the defined color palette across all applications:
-- **Primary:** Cocoa Brown (#3D2314) for headlines and foundational elements
-- **Accent:** Caramel Gold (#D49A36) for highlights and calls-to-action
-- **Background:** Creamy Off-White (#F9F6F0) for clean, airy layouts
-- **Pop:** Banana Yellow (#F4D03F) for energetic accents
-- **Secondary:** Fresh Mint (#A3D9A5) for natural/fresh cues
-
-### Typography
-- **Headlines:** Outfit Bold (700)
-- **Subheadings:** Outfit SemiBold (600)
-- **Body Copy:** Inter Regular (400)
-- **Accent Data:** Inter Medium (500)
-
-### Format Recommendations
-
-| Medium | Recommended Format | Notes |
-|:-------|:------------------|:------|
-| **Web / Digital** | SVG (scalable) | Native resolution for crisp rendering |
-| **Print** | SVG → PDF | Convert at native resolution |
-| **Social Media** | PNG / JPG | Downscale from SVG source |
-| **Billboard / OOH** | SVG → High-res PNG | Scale to billboard dimensions |
-| **Video / Motion** | SVG → Import to AE | Maintain vector quality |
-
-### File Naming
-Use the convention `{product}_{context}_{variant}.svg` for all new assets.
-
----
-
-## Next Steps
-
-Asset delivery is complete. Proceed to **Phase 4: Consolidation & Export**, where:
-- All three phase reports are merged into `results/final_strategy.md`
-- Asset paths are verified
-- A publication-quality PDF is generated via `npx md-to-pdf`
-
-<hr />
-<div style="text-align: center; color: #999; font-size: 12px; margin-top: 40px;">
-  Groupe Bimo · Campaign Strategy · Media Kit · 2026
-</div>
+## 4. Next Steps
+Proceed to **Phase 4: Consolidation & PDF Export**.
